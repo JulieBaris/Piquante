@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "<!-- Il est possible qu'une erreur se produise. \r Si c'est le cas, pour corriger cette erreur, il faudra :\r - supprimer du dossier backend le dossier node_modules, \r - puis le réinstaller.  -->",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Julie",
+  "license": "ISC",
+  "dependencies": {
+    "auth0-js": "^9.19.0",
+    "bcrypt": "^5.0.1",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.7",
+    "mongoose-unique-validator": "^3.0.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "password-validator": "^5.2.1",
+    "sequelize": "^6.19.0",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {}
+}
